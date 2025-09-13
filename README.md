@@ -172,3 +172,17 @@ Make sure your backend server is running and accessible at the configured API ba
 ---
 
 Made with ❤️ by Mayank Kashyap
+
+# To-Do & Notes App
+
+## 📱 This is how it looks like->
+
+### Task Page
+![Desktop Screenshot](./public/images/img1.png)
+
+### Tasks Page (Light mode)
+![Tasks Page](./public/images/img3.png)
+
+### Notes Page
+![Notes Page](./public/images/img2.png)
+
