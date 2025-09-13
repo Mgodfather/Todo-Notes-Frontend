@@ -1,0 +1,156 @@
+.container {
+  width: 100%;
+}
+
+.uploadArea {
+  border: 2px dashed var(--border-primary);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: var(--bg-tertiary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.uploadArea:hover,
+.uploadArea.dragActive {
+  border-color: var(--accent-primary);
+  background-color: var(--accent-light);
+}
+
+.uploadIcon {
+  width: 48px;
+  height: 48px;
+  color: var(--text-muted);
+  stroke-width: 1.5;
+}
+
+.uploadArea:hover .uploadIcon,
+.uploadArea.dragActive .uploadIcon {
+  color: var(--accent-primary);
+}
+
+.uploadText {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.clickText {
+  font-weight: 600;
+  color: var(--accent-primary);
+}
+
+.dragText {
+  color: var(--text-muted);
+}
+
+.fileTypes {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.previewContainer {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: var(--bg-tertiary);
+}
+
+.previewImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.previewOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.previewContainer:hover .previewOverlay {
+  opacity: 1;
+}
+
+.changeButton,
+.removeButton {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid transparent;
+}
+
+.changeButton {
+  background-color: var(--accent-primary);
+  color: white;
+}
+
+.changeButton:hover {
+  background-color: var(--accent-hover);
+}
+
+.removeButton {
+  background-color: var(--danger);
+  color: white;
+}
+
+.removeButton:hover {
+  background-color: var(--danger-hover);
+}
+
+.changeButton svg,
+.removeButton svg {
+  width: 16px;
+  height: 16px;
+  stroke-width: 2;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .uploadArea {
+    padding: 2rem 1rem;
+  }
+
+  .uploadIcon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .uploadText {
+    font-size: 0.9rem;
+  }
+
+  .previewOverlay {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .changeButton,
+  .removeButton {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.8125rem;
+  }
+}
