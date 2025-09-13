@@ -14,7 +14,7 @@ A modern, responsive task and notes management application built with React.js a
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Mgodfather/Todo-Notes-Frontend.git
-   cd todo-notes-app
+   cd Todo-Notes-Frontend
    ```
 
 2. **Install dependencies**
