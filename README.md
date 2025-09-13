@@ -2,6 +2,49 @@
 
 A modern, responsive task and notes management application built with React.js and Vite.
 
+## 🛠️ Setup Instructions
+
+### Prerequisites
+- Node.js (v22 or higher)
+- npm or yarn package manager
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Mgodfather/Todo-Notes-Frontend.git
+   cd todo-notes-app
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   - Navigate to `http://localhost:3000`
+   - The app should be running!
+
+### Build for Production
+
+```bash
+# Build the project
+npm run build
+
+# Preview the production build
+npm run preview
+```
+
 ## 🚀 Features Implemented
 
 ### Current Features
@@ -56,49 +99,6 @@ A modern, responsive task and notes management application built with React.js a
   - Recurring tasks
   - Time tracking
   - Productivity analytics
-
-## 🛠️ Setup Instructions
-
-### Prerequisites
-- Node.js (v22 or higher)
-- npm or yarn package manager
-- Git
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Mgodfather/Todo-Notes-Frontend.git
-   cd todo-notes-app
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-4. **Open your browser**
-   - Navigate to `http://localhost:3000`
-   - The app should be running!
-
-### Build for Production
-
-```bash
-# Build the project
-npm run build
-
-# Preview the production build
-npm run preview
-```
 
 ## 📁 Project Structure
 
@@ -171,8 +171,6 @@ Make sure your backend server is running and accessible at the configured API ba
 
 ---
 
-Made with ❤️ by Mayank Kashyap
-
 # To-Do & Notes App
 
 ## 📱 This is how it looks like->
@@ -185,4 +183,6 @@ Made with ❤️ by Mayank Kashyap
 
 ### Notes Page
 ![Notes Page](./public/images/img2.png)
+
+Made with ❤️ by Mayank Kashyap
 
